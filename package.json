@@ -1,0 +1,32 @@
+{
+  "name": "discord-bot-cli",
+  "version": "0.0.0",
+  "description": "",
+  "author": "WeakenedPlayer",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist"
+  },
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "github": "^11.0.0",
+    "inquirer": "^3.3.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1",
+    "rxjs": "~5.4.0",
+    "simple-git": "^1.79.0",
+    "touch": "^3.1.0",
+    "vorpal": "^1.12.0"
+  },
+  "devDependencies": {
+    "nexe": "^2.0.0-rc.11"
+  }
+}
